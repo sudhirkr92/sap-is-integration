@@ -27,7 +27,9 @@ on:
         description: 'Commit message for GIT'
         required: true
         type: string
-
+        
+permissions:
+  contents: write
 
 jobs:
   call-engine:
