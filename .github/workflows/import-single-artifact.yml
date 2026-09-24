@@ -28,9 +28,6 @@ on:
         required: true
         type: string
         
-permissions:
-  contents: write
-
 jobs:
   call-engine:
     uses: sudhirkr92/btp-is-cicd-engine/.github/workflows/import-single-artifact.yml@main
